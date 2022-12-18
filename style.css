@@ -1,0 +1,101 @@
+.loycard {
+	width: 250px;
+	height: 60px;
+	cursor: pointer;
+}
+
+#image {
+	display: none;
+	max-width: 500px;
+	max-height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1rem solid #c2c2c2;
+	border-radius: 10px;
+}
+
+#image.visible {
+	display: block;
+}
+
+#maxima {
+	background-image: url(https://www.pcrivermall.lt/wp-content/uploads/2018/03/Maxima-logo.png);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#mylimiausia {
+	background-image: url(https://www.seb.lt/sites/default/files/LT_Demo/assets/img/ipank/cardimage_840.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#eurovaistine {
+	background-image: url(https://www.vilkaviskisinfo.lt/data/tourism_objects/large/eurovaistine_logo_001.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#camelia {
+	background-image: url(https://www.protinga.lt/Files/2/a/6/3/0/pre-2a630420af8e45a83a235a395959f503.png);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#ermitazas {
+	background-image: url(https://www.atsiliepimai.lt/uploads/Listings/130/lg/ermitazas.png);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#drogas {
+	background-image: url(https://www.indigroup.lt/wp-content/uploads/2017/12/Drogas-logo-jpg-1024x510-2.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#ikea {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Ikea_logo.svg/1200px-Ikea_logo.svg.png);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#viada {
+	background-image: url(https://www.vilkaviskisinfo.lt/data/tourism_objects/large/viada-orion2.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#ozas {
+	background-image: url(https://www.brandworks.lt/file_stor/u_images/prekybosirpramog/webphotos_OZAS_RGB-1.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#autoaibe {
+	background-image: url(https://www.cv.lt/logos/387673732/thumbnails/Autoaibeslogan-thumb7.png);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
