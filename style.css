@@ -7,13 +7,14 @@
 #image {
 	display: none;
 	/* max-width: 400px; */
-	height: 260px;
-	transform: rotate(90deg);
+	width: 260px;
+	/* height: 260px; */
+	/* transform: rotate(90deg); */
 	position: absolute;
 	margin: auto;
 	/* top: 50%; */
-	/* left: 20px; */
-	/* transform: translate(-50%, -50%); */
+	left: 50%;
+	transform: translate(-50%, -50%);
 	border-radius: 10px;
 }
 
@@ -77,6 +78,14 @@
 	background-size: cover;
 }
 
+#dailycard {
+	background-image: url(https://www.yumpu.com/lt/image/facebook/17611314.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #viada {
 	background-image: url(https://www.vilkaviskisinfo.lt/data/tourism_objects/large/viada-orion2.jpg);
 	background-color: black;
@@ -95,6 +104,62 @@
 
 #autoaibe {
 	background-image: url(https://www.cv.lt/logos/387673732/thumbnails/Autoaibeslogan-thumb7.png);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#iki {
+	background-image: url(https://s1.15min.lt/images/photos/2016/02/11/big/iki-logotipas-56bc60d3cf933.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#norfa {
+	background-image: url(https://belretail.by/files/article/2586/f5e7e59cf294ff72fe0ff222e1fcbc64.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#aibe {
+	background-image: url(https://lietuvoskepejas.lt/failai/2020/11/logo-aibe.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#lidl {
+	background-image: url(https://corporate.lidl.lv/var/lidlcorporate/storage/images/_aliases/corporate_1200x630/5/9/9/7/307995-4-lav-LV/Lidl_Dummy_Press_Release_880x660.png);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#jysk {
+	background-image: url(https://jyskblueline.com/sites/jbl.com/files/inline-files/logo-JYSK-jpg.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#depo {
+	background-image: url(https://s1.15min.lt/images/photos/2019/08/04/original/depo-5d470c0d6a920.jpg);
+	background-color: black;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#mokivezi {
+	background-image: url(https://mir-s3-cdn-cf.behance.net/projects/202/e7c7b877257561.Y3JvcCw4MDQsNjI5LDEyNyw1OQ.jpg);
 	background-color: black;
 	background-position: center;
 	background-repeat: no-repeat;
