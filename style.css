@@ -9,23 +9,6 @@
 	transition: all 0.3s ease-out;
 }
 
-#image {
-	display: none;
-	max-width: 300px;
-	height: auto;
-	position: absolute;
-	margin: auto;
-	/* top: 50%; */
-	left: 50%;
-	transform: translate(-50%, -50%);
-	border-radius: 10px;
-	border: 3px solid #4a4a4a;
-}
-
-#image.visible {
-	display: block;
-}
-
 #maxima {
 	background-image: url(https://www.pcrivermall.lt/wp-content/uploads/2018/03/Maxima-logo.png);
 	background-color: black;
@@ -176,4 +159,54 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+#modal {
+	display: none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(50, 50, 50, 0.99);
+	z-index: 1;
+}
+
+#modal-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #bebebe;
+	padding: 3px;
+	border-radius: 10px;
+}
+
+#modal-image {
+	max-width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+#close-button {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	font-size: 25px;
+	font-weight: 700;
+	color: #bebebe;
+	border: none;
+	background-color: transparent;
+}
+
+#close-button:hover,
+#close-button:focus {
+	color: #c92828;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 440px) {
+	#modal-content {
+		width: 90%;
+	}
 }
