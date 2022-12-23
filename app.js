@@ -15,13 +15,11 @@ buttons.forEach((button) => {
 });
 
 closeButton.addEventListener('click', () => {
-	// Hide the modal
 	modal.style.display = 'none';
 });
 
 modal.addEventListener('click', (event) => {
-	// Only hide the modal if the click was not on the modal content
-	if (event.target !== modalContent) {
+	if (event.target == modal) {
 		modal.style.display = 'none';
 	}
 });
