@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	/* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
 	overflow-x: hidden;
-	min-height: 100vh;
+	min-height: auto;
 	/* If you want to change the site height you can remove overflow-y */
 	/* pureSnow will automatically detect height of body tag */
 	/* overflow-y: hidden; */
@@ -16,10 +16,8 @@ body {
 	background: linear-gradient(white, white);
 	border-radius: 50%;
 	filter: drop-shadow(0 0 10px white);
-}
-
-#snow {
-	min-width: 100%;
+	top: 0;
+	left: 0;
 }
 
 .loycard {
@@ -235,7 +233,7 @@ body {
 	right: 5px;
 	font-size: 25px;
 	font-weight: 700;
-	color: #ffffff;
+	color: #b79a9a;
 	border: none;
 	background-color: transparent;
 }
