@@ -1,15 +1,9 @@
 body {
 	margin: 0;
-	/* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
-	overflow-x: hidden;
 	min-height: auto;
-	/* If you want to change the site height you can remove overflow-y */
-	/* pureSnow will automatically detect height of body tag */
-	/* overflow-y: hidden; */
-	/* color: white; */
 }
 
-.snowflake {
+/* .snowflake {
 	position: absolute;
 	width: 10px;
 	height: 10px;
@@ -18,7 +12,7 @@ body {
 	filter: drop-shadow(0 0 10px white);
 	top: 0;
 	left: 0;
-}
+} */
 
 .loycard {
 	width: 250px;
@@ -53,7 +47,7 @@ body {
 	background-color: black;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 500px;
 }
 
 #eurovaistine {
