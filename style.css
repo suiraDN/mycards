@@ -1,6 +1,5 @@
 body {
 	margin: 0;
-	min-height: auto;
 }
 
 /* .snowflake {
@@ -43,11 +42,11 @@ body {
 }
 
 #mylimiausia {
-	background-image: url(https://www.seb.lt/sites/default/files/LT_Demo/assets/img/ipank/cardimage_840.jpg);
+	background-image: url(https://mylimiausia.lt/static/mainlogo.svg);
 	background-color: black;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 500px;
+	background-size: auto;
 }
 
 #eurovaistine {
@@ -136,6 +135,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	filter: grayscale(100%);
 }
 
 #aibe {
@@ -144,6 +144,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	filter: grayscale(100%);
 }
 
 #lidl {
@@ -176,6 +177,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	filter: grayscale(100%);
 }
 
 #senukai {
@@ -192,6 +194,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	filter: grayscale(100%);
 }
 
 #modal {
