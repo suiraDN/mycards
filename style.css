@@ -114,9 +114,9 @@ body {
 }
 
 #autoaibe {
-	background-image: url(https://www.cv.lt/logos/387673732/thumbnails/Autoaibeslogan-thumb7.png);
+	background-image: url(https://motofocus.lt/wp-content/uploads/2014/05/5383a047c51ecAuto_aibes_logo.jpg);
 	background-color: black;
-	background-position: center;
+	background-position: bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -152,6 +152,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	filter: grayscale(100%);
 }
 
 #jysk {
